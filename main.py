@@ -14,13 +14,7 @@ def discount(result):
 		print("Your total price=$",result)
 	else:
 		print("Your total price=$",result)
-
 		
-
-
-			
-
-	
 length=int(input("Enter the length of the room"))
 width=int(input("Enter the width of the room"))
 result=length*width*20
