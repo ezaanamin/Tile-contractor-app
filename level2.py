@@ -30,7 +30,7 @@ def calculator():
 	po.grid(row=6,column=1)
 	Total=Label(root,text='Total price',font=("Arial Black",10))
 	Total.grid(row=6,column=0)	
-
+	
 root=Tk()
 root.geometry("500x500")
 root.configure(bg="#210070")
@@ -47,8 +47,6 @@ f1=Entry(root,width=30)
 f1.grid(row=2,column=1)
 g=Entry(root)
 g=Button(root,text='Calculate',command=lambda :calculator()).grid(row=3,column=1)
-
-
 root.mainloop()
 
 
